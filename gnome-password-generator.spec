@@ -1,12 +1,12 @@
 Summary:	GNOME Password Generator
 Summary(pl):	Generator hase³ dla GNOME
 Name:		gnome-password-generator
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/gnome-password/%{name}-%{version}.tar.gz
-# Source0-md5:	6b65977d94bee4c7336c3efc222ed1fa
+# Source0-md5:	a2a043a93ce04f3bb798afded8bfd329
 URL:		http://gnome-password.sourceforge.net/
 Requires:	python-gnome >= 2.0.0
 Requires:	python-gnome-ui >= 2.0.0
