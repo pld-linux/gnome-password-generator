@@ -1,17 +1,17 @@
 Summary:	GNOME Password Generator
 Summary(pl):	Generator hase³ dla GNOME
 Name:		gnome-password-generator
-Version:	1.1
+Version:	1.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/gnome-password/%{name}-%{version}.tar.gz
-# Source0-md5:	d8dfba62efd71f7aed96fed60b162f8d
+# Source0-md5:	6b65977d94bee4c7336c3efc222ed1fa
 URL:		http://gnome-password.sourceforge.net/
-Requires:	python-gnome
-Requires:	python-gnome-ui
-Requires:	python-pygtk-gtk
-Requires:	python-pygtk-pango
+Requires:	python-gnome >= 2.0.0
+Requires:	python-gnome-ui >= 2.0.0
+Requires:	python-pygtk-gtk >= 2.2.0
+Requires:	python-pygtk-pango >= 2.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -29,11 +29,8 @@ liczby losowych hase³ o okre¶lonej d³ugo¶ci.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_pixmapsdir}}
-
-install %{name} $RPM_BUILD_ROOT%{_bindir}
-install %{name}.desktop $RPM_BUILD_ROOT%{_desktopdir}
-install %{name}.svg $RPM_BUILD_ROOT%{_pixmapsdir}
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
