@@ -1,5 +1,5 @@
 Summary:	GNOME Password Generator
-Summary(pl):	Generator hase≥ dla GNOME
+Summary(pl.UTF-8):   Generator hase≈Ç dla GNOME
 Name:		gnome-password-generator
 Version:	1.4
 Release:	1
@@ -19,10 +19,10 @@ GNOME Password Generator is a GUI based secure password generator. It
 allows the user to generate a specified number of random passwords of
 a specified length.
 
-%description -l pl
-GNOME Password Generator jest graficznym programem s≥uø±cym do
-generowania bezpiecznych hase≥. Pozwala on na wygenerowanie okre∂lonej
-liczby losowych hase≥ o okre∂lonej d≥ugo∂ci.
+%description -l pl.UTF-8
+GNOME Password Generator jest graficznym programem s≈Çu≈ºƒÖcym do
+generowania bezpiecznych hase≈Ç. Pozwala on na wygenerowanie okre≈õlonej
+liczby losowych hase≈Ç o okre≈õlonej d≈Çugo≈õci.
 
 %prep
 %setup -q
