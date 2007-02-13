@@ -1,5 +1,5 @@
 Summary:	GNOME Password Generator
-Summary(pl.UTF-8):   Generator haseł dla GNOME
+Summary(pl.UTF-8):	Generator haseł dla GNOME
 Name:		gnome-password-generator
 Version:	1.4
 Release:	1
