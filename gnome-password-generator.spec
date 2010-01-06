@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/gnome-password/%{name}-%{version}.tar.gz
 # Source0-md5:	bc4995ee9ec1b084a9e03a35ab99c8e6
 URL:		http://gnome-password.sourceforge.net/
+BuildRequires:	rpm-pythonprov
 Requires:	python-gnome >= 2.0.0
 Requires:	python-gnome-ui >= 2.0.0
 Requires:	python-pygtk-gtk >= 2.2.0
